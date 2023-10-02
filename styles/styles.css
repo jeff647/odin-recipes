@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(224, 180, 151);
+    font-family: Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 251, 0);
+    text-align: center;
+}

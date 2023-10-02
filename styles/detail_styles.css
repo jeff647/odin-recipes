@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(150, 157, 218);
+    font-family: Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(27, 31, 245);
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.list-style-none>li:nth-child(2),
+.list-style-none>li:nth-child(4) {
+    list-style-type: none;
+}
+
+.item {
+    font-weight: bold;
+}
