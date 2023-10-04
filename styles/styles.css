@@ -7,3 +7,39 @@ h1 {
     color: rgb(255, 251, 0);
     text-align: center;
 }
+
+.recipes-card-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+.recipes-card-list li {
+    margin-bottom: 15px;
+    border: 4px outset black;
+    border-radius: 15px;
+}
+
+.recipe-content {
+    padding: 0 20px;
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Remove styling for a inside recipes-card-list */
+
+.recipes-card-list a p {
+    text-decoration: none;
+    color: black;
+}
+
+/* Update default set height on images to auto */
+.recipes-card-list img {
+    height: auto;
+}
