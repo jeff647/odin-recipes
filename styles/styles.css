@@ -21,6 +21,14 @@ h1 {
     border-radius: 15px;
 }
 
+.recipe-card{
+    height: 250px;
+}
+
+.recipe-card img{
+    border-radius: calc(15px - 4px) 0 0 calc(15px - 4px);
+}
+
 .recipe-content {
     padding: 0 20px;
     display: inline-block;
@@ -34,12 +42,13 @@ h2 {
 
 /* Remove styling for a inside recipes-card-list */
 
-.recipes-card-list a p {
+.recipes-card-list a {
     text-decoration: none;
     color: black;
 }
 
 /* Update default set height on images to auto */
 .recipes-card-list img {
-    height: auto;
+    width: 300px !important;
+    height: 100% !important;
 }
